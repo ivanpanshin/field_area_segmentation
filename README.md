@@ -27,13 +27,21 @@ data/
         └── evaluation_*.tif
 ```
 
-4. Download [SSL4EO](https://mediatum.ub.tum.de/1702379) dataset (only the `RGB` version) and palce it in `data`. In particular:
+4. Download [SSL4EO](https://mediatum.ub.tum.de/1702379) dataset (only the `RGB` version) and place it in `data`. In particular:
 ```
 data/
 └── ssl4eo_rgb/
     ├── ***/
         └── ***/
             └── *.tif    
+```
+
+5. Download [weights](https://www.kaggle.com/datasets/ivanpan/final-weights) and place them in `final_weight`. In particular:
+```
+final_weights
+└── effnet_***.pt
+└── maxvit_***.pt
+└── seresnext_***.pt
 ```
 
 ## Reproduce inference
