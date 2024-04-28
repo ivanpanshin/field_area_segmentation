@@ -1,0 +1,8 @@
+defaults:
+  - _self_
+  - trainer: test
+  - model:
+  - dataset: [test/competition_test]
+  - loader: b16_w8
+  - transform: regular
+  - hydra: default

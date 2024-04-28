@@ -1,0 +1,8 @@
+trainer:
+  _target_: mining_sites.trainer.trainer.Trainer
+  _recursive_: false
+
+trainer_hyps:
+  pretrain: 
+  num_epochs: 10
+  debug_iters:

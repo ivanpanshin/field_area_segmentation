@@ -1,0 +1,9 @@
+subs_root: inference/test
+output_path: inference/test_pseudo/test.csv
+
+hydra:
+  run:
+    dir: '.'
+  sweep:
+    dir: '.'
+    subdir: '.'

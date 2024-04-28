@@ -1,0 +1,3 @@
+test:
+  _target_: mining_sites.helpers.dataset_helpers.DatasetSSL4EO
+  dataset_root: data/ssl4eo_median

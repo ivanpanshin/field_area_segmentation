@@ -1,0 +1,13 @@
+defaults:
+  - _self_
+  - trainer: train
+  - model: effnet_v2_s
+  - loss: ce
+  - optimizer: adamw
+  - scheduler: cosine_annealing
+  - dataset: 
+  - loader: b16_w8
+  - logging: default
+  - sampler: distributed
+  - transform: regular
+  - hydra: default

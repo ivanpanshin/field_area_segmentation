@@ -1,0 +1,8 @@
+train:
+  _target_: mining_sites.helpers.dataset_helpers.DatasetPseudo
+  train_dataset_root: data/images/competition_data
+  pseudo_dataset_root: data/images/competition_test
+  ann_path: data/annotations/fold_0.csv
+  pseudo_ann_path: inference/test_pseudo/test.csv
+  split: train
+  multiplier: 10

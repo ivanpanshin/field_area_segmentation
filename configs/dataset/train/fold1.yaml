@@ -1,0 +1,6 @@
+train:
+  _target_: mining_sites.helpers.dataset_helpers.DatasetOriginal
+  dataset_root: data/images/competition_data
+  ann_path: data/annotations/fold_1.csv
+  split: train
+  multiplier: 20

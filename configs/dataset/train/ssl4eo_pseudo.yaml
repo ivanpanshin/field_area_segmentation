@@ -1,0 +1,4 @@
+train:
+  _target_: mining_sites.helpers.dataset_helpers.DatasetSSL4EOPseudo
+  dataset_root: data/ssl4eo_median
+  ann_path: inference/ssl4eo_pseudo/test.csv

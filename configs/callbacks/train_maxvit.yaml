@@ -1,0 +1,10 @@
+- _target_: mining_sites.callbacks.model.ChangeModelDevice
+- _target_: mining_sites.callbacks.model.TrainEval
+- _target_: mining_sites.callbacks.model.SaveModel
+  top_k: 5
+- _target_: mining_sites.callbacks.logging.CalculateETA
+- _target_: mining_sites.callbacks.logging.LogMetrics_Mlflow
+- _target_: mining_sites.callbacks.model.EMA
+  ema_decay_per_epoch: 0.3
+- _target_: mining_sites.callbacks.model.LoadModelFromDisk
+  path: /mnt/sota/mlflow_artifact_store/200921760190976169/9b83f5f9b8a349f1925e4f8475a5559c/artifacts/epoch_11_f1_score_0.80795.pt

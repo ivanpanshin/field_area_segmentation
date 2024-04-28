@@ -1,0 +1,4 @@
+test:
+  _target_: mining_sites.helpers.dataset_helpers.DatasetOriginal
+  dataset_root: data/images/competition_test
+  split: test

@@ -1,0 +1,5 @@
+train:
+  _target_: mining_sites.helpers.augs_helpers.regular
+
+val:
+  _target_: mining_sites.helpers.augs_helpers.to_tensor
