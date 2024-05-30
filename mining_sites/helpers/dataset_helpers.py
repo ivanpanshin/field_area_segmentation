@@ -82,6 +82,7 @@ class DatasetSSL4EO(Dataset):
         super().__init__()
 
         self.paths = glob(f'{dataset_root}/*.png')
+        self.ids = [_.split('/')[-1] for _ in self.paths]
         logging.info(f'Num of paths in test dataset: {len(self.paths)}')
         self.transform = transform
 
