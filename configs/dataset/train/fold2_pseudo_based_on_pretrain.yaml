@@ -1,8 +1,0 @@
-train:
-  _target_: mining_sites.helpers.dataset_helpers.DatasetPseudo
-  train_dataset_root: data/images/competition_data
-  pseudo_dataset_root: data/images/competition_test
-  ann_path: data/annotations/fold_2.csv
-  pseudo_ann_path: inference/pseudo_annotations/effnet_maxvit_seresnext_ssl4eo_pretrain.csv
-  split: train
-  multiplier: 10

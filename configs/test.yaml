@@ -1,8 +1,11 @@
 defaults:
   - _self_
   - trainer: test
-  - model:
-  - dataset: [test/competition_test]
-  - loader: b16_w8
-  - transform: regular
+  - model: smp_unet_maxvit_mask_center_offsets
+  - accelerate: gpu_amp
+  - dataset: [test/test]
+  - loader: b2_w2
+  - collate_fn:
+  - sampler: distributed
+  - transform: identity
   - hydra: default

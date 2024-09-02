@@ -1,3 +1,0 @@
-torchrun --nproc_per_node=1 --master-port=29500 mining_sites/train.py dataset=[train/fold0,val/fold0] scheduler.scheduler.T_max=20000 model=maxvit_base logging.logging_dir=maxvit_base_fold0 
-torchrun --nproc_per_node=1 --master-port=29500 mining_sites/train.py dataset=[train/fold1,val/fold1] scheduler.scheduler.T_max=20000 model=maxvit_base logging.logging_dir=maxvit_base_fold1
-torchrun --nproc_per_node=1 --master-port=29500 mining_sites/train.py dataset=[train/fold2,val/fold2] scheduler.scheduler.T_max=20000 model=maxvit_base logging.logging_dir=maxvit_base_fold2

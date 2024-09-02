@@ -1,0 +1,13 @@
+input_dir: data
+output_dir: data/preprocessed_test
+
+num_procs: 4
+
+
+
+hydra:
+  run:
+    dir: '.'
+  sweep:
+    dir: '.'
+    subdir: '.'

@@ -1,5 +1,0 @@
-val_0:
-  _target_: mining_sites.helpers.dataset_helpers.DatasetOriginal
-  dataset_root: data/images/competition_data
-  ann_path: data/annotations/fold_0.csv
-  split: val

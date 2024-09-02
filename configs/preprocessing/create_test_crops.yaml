@@ -1,0 +1,15 @@
+dataset_root: data/preprocessed_test/images
+output_dir: data/preprocessed_test_png
+
+height: 2048
+width: 2048
+
+split: test
+
+
+hydra:
+  run:
+    dir: '.'
+  sweep:
+    dir: '.'
+    subdir: '.'

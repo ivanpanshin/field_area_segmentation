@@ -1,5 +1,0 @@
-SSL4EO_PRETRAIN_SERESNEXT="seresnext_base_fold0//epoch_0.pt"
-
-torchrun --nproc_per_node=1 --master-port=29500 mining_sites/train.py dataset=[train/fold0_pseudo,val/fold0] scheduler.scheduler.T_max=20000 model=seresnext logging.logging_dir=seresnext_fold0_stage4 dataset.train.train.multiplier=10 optimizer.lr=3e-5 scheduler.scheduler.eta_min=3e-6 trainer.trainer_hyps.pretrain=${SSL4EO_PRETRAIN_SERESNEXT}
-torchrun --nproc_per_node=1 --master-port=29500 mining_sites/train.py dataset=[train/fold1_pseudo,val/fold1] scheduler.scheduler.T_max=20000 model=seresnext logging.logging_dir=seresnext_fold1_stage4 dataset.train.train.multiplier=10 optimizer.lr=3e-5 scheduler.scheduler.eta_min=3e-6 trainer.trainer_hyps.pretrain=${SSL4EO_PRETRAIN_SERESNEXT}
-torchrun --nproc_per_node=1 --master-port=29500 mining_sites/train.py dataset=[train/fold2_pseudo,val/fold2] scheduler.scheduler.T_max=20000 model=seresnext logging.logging_dir=seresnext_fold2_stage4 dataset.train.train.multiplier=10 optimizer.lr=3e-5 scheduler.scheduler.eta_min=3e-6 trainer.trainer_hyps.pretrain=${SSL4EO_PRETRAIN_SERESNEXT}

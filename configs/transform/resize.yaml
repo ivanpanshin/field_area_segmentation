@@ -1,7 +1,0 @@
-train:
-  _target_: mining_sites.helpers.augs_helpers.resize
-  img_size: 512
-
-val:
-  _target_: mining_sites.helpers.augs_helpers.resize
-  img_size: 512

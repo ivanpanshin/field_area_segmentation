@@ -1,1 +1,1 @@
-_target_: mining_sites.helpers.samplers_helpers.distributed_sampler
+_target_: solafune_instance_segmentation.helpers.samplers_helpers.distributed_sampler

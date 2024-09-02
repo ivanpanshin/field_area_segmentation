@@ -3,6 +3,11 @@ torch-ema==0.3
 bitsandbytes==0.35.0
 accelerate==0.20.3
 tifffile==2024.2.12
-albumentations==1.4.0
+albumentations==1.4.14
 opencv-python==4.9.0.80
 timm==0.9.16
+numpy==1.24.4
+mlflow==2.16.0
+imagecodecs==2024.6.1
+shapely==2.0.6
+imantics==0.1.12

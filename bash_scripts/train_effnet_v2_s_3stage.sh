@@ -1,1 +1,0 @@
-torchrun --nproc_per_node=1 --master-port=29500 mining_sites/train.py dataset=[train/ssl4eo_pseudo,val/fold0] scheduler.scheduler.T_max=180000 logging.logging_dir=effnet_v2_s_stage3 transform=regular_resize

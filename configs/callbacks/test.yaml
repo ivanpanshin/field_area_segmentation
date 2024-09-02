@@ -1,4 +1,0 @@
-- _target_: mining_sites.callbacks.model.ChangeModelDevice
-- _target_: mining_sites.callbacks.model.TrainEval
-- _target_: mining_sites.callbacks.model.LoadModelFromDisk
-  path: weights_swa/effnet_v2_s_fold2_test_pseudo_ssl4eo_pretrain_768.pt

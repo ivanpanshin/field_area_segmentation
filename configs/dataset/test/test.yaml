@@ -1,0 +1,4 @@
+test_0:
+  _target_: field_area_segmentation.helpers.dataset_helpers.SemSegDatasetPreprocessed
+  dataset_root: data/preprocessed_test_png
+  split: test

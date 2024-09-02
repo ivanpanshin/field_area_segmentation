@@ -1,9 +1,6 @@
 trainer:
-  _target_: mining_sites.trainer.trainer.Trainer
+  _target_: solafune_instance_segmentation.trainer.trainer.Trainer
   _recursive_: false
 
 trainer_hyps:
-  test_dataset_id_attribute: ids
-  model_path: 
-  test_preds_output_path: 
-  
+  model_path: final_weights/unet_steroids_maxvit_1024_1024_model.pt
